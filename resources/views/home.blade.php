@@ -1,6 +1,5 @@
 @extends('layouts.layout')
 
-
 @section('content')
 
 <!--banner-->
@@ -36,9 +35,9 @@
 					<div class="col-md-6 col-md">
 						<div class="col-1">
 						 <a href="single.html" class="b-link-stroke b-animate-go  thickbox">
-		   <img src="{{ url('public/assets/images/pi.jpg') }}" class="img-responsive" alt=""/><div class="b-wrapper1 long-img"><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum</p><label class="b-animate b-from-right    b-delay03 "></label><h3 class="b-animate b-from-left    b-delay03 ">Trendy</h3></div></a>
+		   <img src="assets/images/pi.jpg" class="img-responsive" alt=""/><div class="b-wrapper1 long-img"><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum</p><label class="b-animate b-from-right    b-delay03 "></label><h3 class="b-animate b-from-left    b-delay03 ">Trendy</h3></div></a>
 
-							<!---<a href="single.html"><img src="images/pi.jpg" class="img-responsive" alt=""></a>-->
+							<!---<a href="single.html"><img src="assets/images/pi.jpg" class="img-responsive" alt=""></a>-->
 						</div>
 						<div class="col-2">
 							<span>Hot Deal</span>
@@ -49,7 +48,7 @@
 					</div>
 					<div class="col-md-6 col-md1">
 						<div class="col-3">
-							<a href="single.html"><img src="images/pi1.jpg" class="img-responsive" alt="">
+							<a href="single.html"><img src="assets/images/pi1.jpg" class="img-responsive" alt="">
 							<div class="col-pic">
 								<p>Lorem Ipsum</p>
 								<label></label>
@@ -57,7 +56,7 @@
 							</div></a>
 						</div>
 						<div class="col-3">
-							<a href="single.html"><img src="images/pi2.jpg" class="img-responsive" alt="">
+							<a href="single.html"><img src="assets/images/pi2.jpg" class="img-responsive" alt="">
 							<div class="col-pic">
 								<p>Lorem Ipsum</p>
 								<label></label>
@@ -65,7 +64,7 @@
 							</div></a>
 						</div>
 						<div class="col-3">
-							<a href="single.html"><img src="images/pi3.jpg" class="img-responsive" alt="">
+							<a href="single.html"><img src="assets/images/pi3.jpg" class="img-responsive" alt="">
 							<div class="col-pic">
 								<p>Lorem Ipsum</p>
 								<label></label>
@@ -83,7 +82,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -96,7 +95,7 @@
 							<h6><a href="single.html">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -115,7 +114,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc1.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc1.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -128,7 +127,7 @@
 							<h6><a href="single.html">At vero eos</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -147,7 +146,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc2.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc2.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -160,7 +159,7 @@
 							<h6><a href="single.html">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -179,7 +178,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc3.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc3.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -192,7 +191,7 @@
 							<h6><a href="single.html">On the other</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -214,7 +213,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc4.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc4.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -227,7 +226,7 @@
 							<h6><a href="single.html">On the other</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -246,7 +245,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc5.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc5.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -259,7 +258,7 @@
 							<h6><a href="single.html">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -278,7 +277,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc6.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc6.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -291,7 +290,7 @@
 							<h6><a href="single.html">At vero eos</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -310,7 +309,7 @@
 					<div class="col-md-3 item-grid simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
-						<img src="images/pc7.jpg" class="img-responsive" alt="">
+						<img src="assets/images/pc7.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
 						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
@@ -323,7 +322,7 @@
 							<h6><a href="single.html">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
-								<a href="#"><img src="images/ca.png" alt=""></a>
+								<a href="#"><img src="assets/images/ca.png" alt=""></a>
 							</div>
 							<div class="clearfix"></div>
 							</div>
@@ -346,16 +345,16 @@
 			<!--brand-->
 			<div class="brand">
 				<div class="col-md-3 brand-grid">
-					<img src="images/ic.png" class="img-responsive" alt="">
+					<img src="assets/images/ic.png" class="img-responsive" alt="">
 				</div>
 				<div class="col-md-3 brand-grid">
-					<img src="images/ic1.png" class="img-responsive" alt="">
+					<img src="assets/images/ic1.png" class="img-responsive" alt="">
 				</div>
 				<div class="col-md-3 brand-grid">
-					<img src="images/ic2.png" class="img-responsive" alt="">
+					<img src="assets/images/ic2.png" class="img-responsive" alt="">
 				</div>
 				<div class="col-md-3 brand-grid">
-					<img src="images/ic3.png" class="img-responsive" alt="">
+					<img src="assets/images/ic3.png" class="img-responsive" alt="">
 				</div>
 				<div class="clearfix"></div>
 			</div>

@@ -2,22 +2,22 @@
 <html>
 <head>
 <title>@yield('title')</title>
-<link href="{{ url('public/assets/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ url('assets/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
 <!--theme-style-->
-<link href="{{ url('public/assets/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />	
+<link href="{{ url('assets/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="keywords" content="Shopin Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndroId Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--theme-style-->
-<link href="{{ url('public/assets/css/style4.css') }}" rel="stylesheet" type="text/css" media="all" />	
+<link href="{{ url('assets/css/style4.css') }}" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
-<script src="{{ url('public/assets/js/jquery.min.js') }}"></script>
+<script src="{{ url('assets/js/jquery.min.js') }}"></script>
 <!--- start-rate---->
-<script src="{{ url('public/assets/js/jstarbox.js') }}"></script>
+<script src="{{ url('assets/js/jstarbox.js') }}"></script>
 	<link rel="stylesheet" href="{{ url('public/assets/css/jstarbox.css') }}" type="text/css" media="screen" charset="utf-8" />
 		<script type="text/javascript">
 			jQuery(function() {
@@ -39,7 +39,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				})
 			});
 		});
-		</script>
+        </script>
+        <link href="assets/css/form.css" rel="stylesheet" type="text/css" media="all" />
 <!---//End-rate---->
 
 </head>
@@ -49,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="container">
 		<div class="head">
 			<div class=" logo">
-				<a href="index.html"><img src="images/logo.png" alt=""></a>	
+				<a href="index.html"><img src="assets/images/logo.png" alt=""></a>	
 			</div>
 		</div>
 	</div>
@@ -157,7 +158,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>							
 						</div>
 						<div class="col1 col5">
-						<img src="images/me.png" class="img-responsive" alt="">
+						<img src="assets/images/me.png" class="img-responsive" alt="">
 						</div>
 						<div class="clearfix"></div>
 					</div>                  
@@ -222,7 +223,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>							
 						</div>
 						<div class="col1 col5">
-						<img src="images/me1.png" class="img-responsive" alt="">
+						<img src="assets/images/me1.png" class="img-responsive" alt="">
 						</div>
 						<div class="clearfix"></div>
 					</div>                  
@@ -249,7 +250,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="checkout.html">
 						<h3> <div class="total">
 							<span class="simpleCart_total"></span></div>
-							<img src="images/cart.png" alt=""/></h3>
+							<img src="assets/images/cart.png" alt=""/></h3>
 						</a>
 						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 
@@ -261,32 +262,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<!---pop-up-box---->					  
 			<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
 			<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-			<!---//pop-up-box---->
-			<div id="small-dialog" class="mfp-hide">
-				<div class="search-top">
-					<div class="login-search">
-						<input type="submit" value="">
-						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}">		
-					</div>
-					<p>Shopin</p>
-				</div>				
-			</div>
-		 <script>
-			$(document).ready(function() {
-			$('.popup-with-zoom-anim').magnificPopup({
-			type: 'inline',
-			fixedContentPos: false,
-			fixedBgPos: true,
-			overflowY: 'auto',
-			closeBtnInside: true,
-			preloader: false,
-			midClick: true,
-			removalDelay: 300,
-			mainClass: 'my-mfp-zoom-in'
-			});
-																						
-			});
-		</script>		
+				
 						<!----->
 			</div>
 			<div class="clearfix"></div>
@@ -358,12 +334,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!--//footer-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="{{ url('public/assets/js/simpleCart.min.js') }}"> </script>
+<script src="{{ url('assets/js/simpleCart.min.js') }}"> </script>
 <!-- slide -->
-<script src="{{ url('public/assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ url('assets/js/bootstrap.min.js') }}"></script>
 <!--light-box-files -->
-		<script src="{{ url('public/assets/js/jquery.chocolat.js') }}"></script>
-		<link rel="stylesheet" href="{{ url('public/assets/css/chocolat.css') }}" type="text/css" media="screen" charset="utf-8">
+		<script src="{{ url('assets/js/jquery.chocolat.js') }}"></script>
+		<link rel="stylesheet" href="{{ url('assets/css/chocolat.css') }}" type="text/css" media="screen" charset="utf-8">
 		<!--light-box-files -->
 		<script type="text/javascript" charset="utf-8">
 		$(function() {
@@ -371,6 +347,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 		</script>
 
+<script src="assets/js/imagezoom.js"></script>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script defer src="assets/js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+<script>
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});
+</script>
 
 </body>
 </html>

@@ -20,3 +20,18 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/products', function () {
+    return view('products');
+});
+Route::get('/productdetails', function () {
+    return view('productdetails');
+});
+
+Route::get('/adminindex', function () {
+    return view('adminindex');
+});
