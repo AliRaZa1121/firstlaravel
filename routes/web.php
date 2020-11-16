@@ -1,5 +1,15 @@
 <?php
 
+use App\Http\Controllers\Account;
+use App\Http\Controllers\AdminIndex;
+use App\Http\Controllers\Contactus;
+use App\Http\Controllers\FrnotEndProducts;
+use App\Http\Controllers\FrontEndProductDetails;
+use App\Http\Controllers\Helloname;
+use App\Http\Controllers\FrontEndHome;
+use App\Http\Middleware\CheckAge;
+use App\Http\Controllers\InvokeController;
+use Carbon\Cli\Invoker;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,25 +23,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Testing Routes//
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-    return view('home');
-});
+Route::get('test/{name}', [Helloname::class, 'helloname']);
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+//Baackend Routes//
+Route::get('/login', [Account::class, 'login']);
+Route::get('/adminindex', [AdminIndex::class, 'index']);
 
-Route::get('/products', function () {
-    return view('products');
-});
-Route::get('/productdetails', function () {
-    return view('productdetails');
-});
 
-Route::get('/adminindex', function () {
-    return view('adminindex');
-});
+// Frontend Routes//
+
+Route::get('/contactus', [Contactus::class, 'index']);
+Route::get('/home', [FrontEndHome::class, 'index']);
+Route::get('/products', [FrnotEndProducts::class, 'index']);
+Route::get('/productdetails', [FrontEndProductDetails::class, 'index']);
+
+//invoke
+// Route::get('/invoke',InvokeController::class);
+
+//mideleware
+Route::get('/adminindex/{age}', function () {
+    //
+})->Middleware([CheckAge::class]);
+
+

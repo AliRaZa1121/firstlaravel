@@ -22,14 +22,14 @@
 						<img src="assets/images/pc.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Women</span>
-							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -41,10 +41,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -54,14 +54,14 @@
 						<img src="assets/images/pc1.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Women</span>
-							<h6><a href="single.html">At vero eos</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">At vero eos</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -73,10 +73,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -86,14 +86,14 @@
 						<img src="assets/images/pc2.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Men</span>
-							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -105,10 +105,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -118,14 +118,14 @@
 						<img src="assets/images/pc3.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Women</span>
-							<h6><a href="single.html">On the other</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">On the other</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -137,10 +137,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -150,14 +150,14 @@
 						<img src="assets/images/pc4.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Men</span>
-							<h6><a href="single.html">On the other</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">On the other</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -169,10 +169,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -182,14 +182,14 @@
 						<img src="assets/images/pc5.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Men</span>
-							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -201,28 +201,28 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
-					
+
 					<div class="col-md-4 item-grid1 simpleCart_shelfItem">
 					<div class=" mid-pop">
 					<div class="pro-img">
 						<img src="assets/images/pc6.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Women</span>
-							<h6><a href="single.html">At vero eos</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">At vero eos</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -234,10 +234,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -247,14 +247,14 @@
 						<img src="assets/images/pc7.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Men</span>
-							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">Sed ut perspiciati</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -266,10 +266,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -279,14 +279,14 @@
 						<img src="assets/images/pc.jpg" class="img-responsive" alt="">
 						<div class="zoom-icon ">
 						<a class="picture" href="images/pc.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
-						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						<a href="{{ url('/productdetails') }}"><i class="glyphicon glyphicon-menu-right icon"></i></a>
 						</div>
 						</div>
 						<div class="mid-1">
 						<div class="women">
 						<div class="women-top">
 							<span>Women</span>
-							<h6><a href="single.html">At vero eos</a></h6>
+							<h6><a href="{{ url('/productdetails') }}">At vero eos</a></h6>
 							</div>
 							<div class="img item_add">
 								<a href="#"><img src="assets/images/ca.png" alt=""></a>
@@ -298,10 +298,10 @@
 								  <div class="block">
 									<div class="starbox small ghosting"> </div>
 								</div>
-								
+
 								<div class="clearfix"></div>
 							</div>
-							
+
 						</div>
 					</div>
 					</div>
@@ -341,7 +341,7 @@
 									<li class="subitem3"><a href="product.html">Automatic Fails</a></li>
 								</ul>
 							</li>
-									
+
 							<li class="item4"><a href="#">Shoes</a>
 								<ul class="cute">
 									<li class="subitem1"><a href="product.html">Cute Kittens </a></li>
@@ -368,7 +368,7 @@
 							            $(this).next().stop(true,true).slideUp('normal');
 							        }
 							    });
-							
+
 							});
 						</script>
 <!--//menu-->
@@ -385,9 +385,9 @@
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Other(50)</label>
 						 </div>
 					 </div>
-				 </section> 				 				 
-				 
-					
+				 </section>
+
+
 					 <!---->
 					 <section  class="sky-form">
 						<h4 class="cate">Type</h4>
@@ -422,12 +422,12 @@
 									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Ray-Ban</label>
 								</div>
 							</div>
-				   </section>		
+				   </section>
 		</div>
 			<div class="clearfix"></div>
 			</div>
 				<!--products-->
-			
+
 			<!--//products-->
 		<!--brand-->
 		<div class="container">
@@ -448,8 +448,8 @@
 			</div>
 			</div>
 			<!--//brand-->
-			
-			
+
+
 		</div>
 	<!--//content-->
     @endsection
