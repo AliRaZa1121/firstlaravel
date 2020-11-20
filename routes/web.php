@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Account;
 use App\Http\Controllers\AdminIndex;
+use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\Contactus;
 use App\Http\Controllers\FrnotEndProducts;
 use App\Http\Controllers\FrontEndProductDetails;
@@ -33,6 +34,7 @@ Route::get('test/{name}', [Helloname::class, 'helloname']);
 //Baackend Routes//
 Route::get('/login', [Account::class, 'login']);
 Route::get('/adminindex', [AdminIndex::class, 'index']);
+Route::get('/adminproducts',[ProductsController::class, 'index']);
 
 
 // Frontend Routes//
@@ -46,8 +48,8 @@ Route::get('/productdetails', [FrontEndProductDetails::class, 'index']);
 // Route::get('/invoke',InvokeController::class);
 
 //mideleware
-Route::get('/adminindex/{age}', function () {
-    //
-})->Middleware([CheckAge::class]);
+// Route::get('/adminindex/{age}', function () {
+
+// })->Middleware([CheckAge::class]);
 
 
