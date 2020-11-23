@@ -12,11 +12,11 @@
   <title>SB Admin 2 - Dashboard</title>
 
   <!-- Custom fonts for this template-->
-  <link href="adminassets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="adminassets/https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="/adminassets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/adminassets/https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="adminassets/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="/adminassets/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -41,7 +41,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="adminassets/index.html">
+        <a class="nav-link" href="/adminindex">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
@@ -56,21 +56,21 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="adminassets/#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cog"></i>
-          <span>Components</span>
+          <span>Products</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="adminassets/buttons.html">Buttons</a>
-            <a class="collapse-item" href="adminassets/cards.html">Cards</a>
+            <a class="collapse-item" href="/adminproducts">Products</a>
+            <a class="collapse-item" href="/addproducts">Add Products</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a class="nav-link collapsed" href="adminassets/#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
           <i class="fas fa-fw fa-wrench"></i>
           <span>Utilities</span>
@@ -84,18 +84,18 @@
             <a class="collapse-item" href="adminassets/utilities-other.html">Other</a>
           </div>
         </div>
-      </li>
+      </li> --}}
 
       <!-- Divider -->
       <hr class="sidebar-divider">
 
       <!-- Heading -->
-      <div class="sidebar-heading">
+      {{-- <div class="sidebar-heading">
         Addons
-      </div>
+      </div> --}}
 
       <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a class="nav-link collapsed" href="adminassets/#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
           <i class="fas fa-fw fa-folder"></i>
           <span>Pages</span>
@@ -112,24 +112,24 @@
             <a class="collapse-item" href="adminassets/blank.html">Blank Page</a>
           </div>
         </div>
-      </li>
+      </li> --}}
 
       <!-- Nav Item - Charts -->
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a class="nav-link" href="adminassets/charts.html">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Charts</span></a>
-      </li>
+      </li> --}}
 
       <!-- Nav Item - Tables -->
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a class="nav-link" href="adminassets/tables.html">
           <i class="fas fa-fw fa-table"></i>
           <span>Tables</span></a>
-      </li>
+      </li> --}}
 
       <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
+      {{-- <hr class="sidebar-divider d-none d-md-block"> --}}
 
       <!-- Sidebar Toggler (Sidebar) -->
       <div class="text-center d-none d-md-inline">
@@ -374,21 +374,21 @@
   </div>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="adminassets/vendor/jquery/jquery.min.js"></script>
-  <script src="adminassets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/adminassets/vendor/jquery/jquery.min.js"></script>
+  <script src="/adminassets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="adminassets/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="/adminassets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="adminassets/js/sb-admin-2.min.js"></script>
+  <script src="/adminassets/js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="adminassets/vendor/chart.js/Chart.min.js"></script>
+  <script src="/adminassets/vendor/chart.js/Chart.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="adminassets/js/demo/chart-area-demo.js"></script>
-  <script src="adminassets/js/demo/chart-pie-demo.js"></script>
+  <script src="/adminassets/js/demo/chart-area-demo.js"></script>
+  <script src="/adminassets/js/demo/chart-pie-demo.js"></script>
 
 </body>
 

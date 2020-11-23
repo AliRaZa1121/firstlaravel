@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Products;
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Request;
+
 class ProductsController extends Controller
 {
     /**
@@ -14,7 +16,7 @@ class ProductsController extends Controller
      */
     public function index()
     {
-        $data = DB::table('products')->where('Id', '1')->get();
+        $data = DB::table('products')->get();
         return view('backend.products', ['productsdata' => $data]);
     }
 
@@ -25,8 +27,22 @@ class ProductsController extends Controller
      */
     public function create()
     {
-        //
+     $pname = Request::input('name');
+     $ppric = Request::input('price');
+     $pdetails = Request::input('details');
+
+     $data = ['name'=> $pname , 'price'=> $ppric, 'details'=> $pdetails];
+     DB::table('products')->insert($data);
+
+     return redirect('/adminproducts');
+
     }
+    public function delete($id)
+    {
+        DB::table('products')->where('Id', $id)->delete();
+        return redirect('/adminproducts');
+    }
+
 
     /**
      * Store a newly created resource in storage.
@@ -68,9 +84,19 @@ class ProductsController extends Controller
      * @param  \App\Models\Products  $products
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Products $products)
+    public function update($id)
     {
-        //
+        $data = DB::table('products')->find($id);
+        return view('backend.editproduct', ['product' => $data]);
+
+        $pname = Request::input('name');
+        $ppric = Request::input('price');
+        $pdetails = Request::input('details');
+
+        $update = DB::table('products')
+              ->where('Id', $id)
+              ->update(['name'=> $pname , 'price'=> $ppric, 'details'=> $pdetails]);
+              return redirect('/adminproducts');
     }
 
     /**
@@ -81,6 +107,6 @@ class ProductsController extends Controller
      */
     public function destroy(Products $products)
     {
-        //
+
     }
 }
