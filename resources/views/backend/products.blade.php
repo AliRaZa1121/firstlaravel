@@ -7,7 +7,7 @@
 
     <!-- Page Heading -->
     <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-    <a href="/addproducts" class="btn btn-primary">Add Products</a>
+    <a href="/dashboard/addproducts" class="btn btn-primary">Add Products</a>
     <hr>
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
@@ -37,8 +37,8 @@
                 <td>{{ $row->Price }}</td>
                 <td>{{ $row->Details }}</td>
                 <td>
-                    <a href="deleteproduct/{{ $row->Id }}"><button class="btn btn-circle btn-danger btn-sm"><i class="fa fa-trash"></i></button></a>
-                    <a href="editproduct/{{ $row->Id }}"><button class="btn btn-circle btn-warning btn-sm"><i class="fa fa-edit"></i></button></a>
+                    <a href="/deleteproduct/{{ $row->Id }}"><button class="btn btn-circle btn-danger btn-sm"><i class="fa fa-trash"></i></button></a>
+                    <a href="/editproduct/{{ $row->Id }}"><button class="btn btn-circle btn-warning btn-sm"><i class="fa fa-edit"></i></button></a>
                 </td>
                </tr>
                 @endforeach

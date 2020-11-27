@@ -5,8 +5,10 @@
 
 <div class="container">
 
-    <form class="form" action="" method="post">
+    <form class="form" action="/updateproduct" method="post">
         @csrf
+
+        <input type="hidden"class="form-control" name="id" value="{{ $product->Id }}">
 
              <div class="form-group">
                 <label for="">Name</label>
@@ -27,7 +29,7 @@
 
 
               <div class="form-group">
-                <input type="submit" class="btn btn-outline-primary" name="submit" value="Add Product">
+                <input type="submit" class="btn btn-outline-primary" name="submit" value="Save Changes">
               </div>
 
             </form>

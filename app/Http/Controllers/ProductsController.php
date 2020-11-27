@@ -34,13 +34,13 @@ class ProductsController extends Controller
      $data = ['name'=> $pname , 'price'=> $ppric, 'details'=> $pdetails];
      DB::table('products')->insert($data);
 
-     return redirect('/adminproducts');
+     return redirect('/dashboard/products');
 
     }
     public function delete($id)
     {
         DB::table('products')->where('Id', $id)->delete();
-        return redirect('/adminproducts');
+        return redirect('/dashboard/products');
     }
 
 
@@ -72,9 +72,11 @@ class ProductsController extends Controller
      * @param  \App\Models\Products  $products
      * @return \Illuminate\Http\Response
      */
-    public function edit(Products $products)
+    public function edit($id)
     {
-        //
+        $data = DB::table('products')->find($id);
+        return view('backend.editproduct', ['product' => $data]);
+
     }
 
     /**
@@ -84,19 +86,17 @@ class ProductsController extends Controller
      * @param  \App\Models\Products  $products
      * @return \Illuminate\Http\Response
      */
-    public function update($id)
+    public function update(Request $request)
     {
-        $data = DB::table('products')->find($id);
-        return view('backend.editproduct', ['product' => $data]);
-
+        $id = Request::input('id');
         $pname = Request::input('name');
         $ppric = Request::input('price');
         $pdetails = Request::input('details');
 
-        $update = DB::table('products')
-              ->where('Id', $id)
-              ->update(['name'=> $pname , 'price'=> $ppric, 'details'=> $pdetails]);
-              return redirect('/adminproducts');
+        $update = ['name'=> $pname , 'price'=> $ppric, 'details'=> $pdetails];
+
+         DB::table('products')->where('id', $id)->update($update);
+              return redirect('/dashboard/products');
     }
 
     /**
