@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
+
 class CheckSecurity
 {
     /**
@@ -16,9 +17,9 @@ class CheckSecurity
      */
     public function handle(Request $request, Closure $next)
     {
-        if (!$request->session()->has('id')) {
-            return redirect('/');
-        }
+        // if (!$request->session()->has('email')) {
+        //     return redirect('/');
+        // }
         return $next($request);
     }
 }

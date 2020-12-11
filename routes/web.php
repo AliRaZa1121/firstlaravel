@@ -32,7 +32,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('test/{name}', [Helloname::class, 'helloname']);
 
 //Baackend Routes//
-Route::get('/dashboard', [AdminIndex::class, 'index']);
+Route::get('/dashboard ', [AdminIndex::class, 'index']);
 Route::get('dashboard/products',[ProductsController::class, 'index']);
 Route::post('/saveproducts',[ProductsController::class, 'create']);
 Route::get('/editproduct/{id}',[ProductsController::class, 'edit']);
