@@ -5,7 +5,7 @@
 
 <div class="container">
 
-    <form class="form" action="saveproducts" method="post">
+    <form class="form" action="saveproducts" method="post" enctype="multipart/form-data">
         @csrf
 
              <div class="form-group">
@@ -23,7 +23,10 @@
                 <input type="text"class="form-control" name="details">
              </div>
 
-
+             <div class="form-group">
+                <label for="">Image</label>
+                <input type="file"class="form-control" name="img">
+             </div>
 
 
               <div class="form-group">

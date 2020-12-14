@@ -92,8 +92,10 @@ class ProductsController extends Controller
         $pname = Request::input('name');
         $ppric = Request::input('price');
         $pdetails = Request::input('details');
+        $pimg = Request::input('img');
 
-        $update = ['name'=> $pname , 'price'=> $ppric, 'details'=> $pdetails];
+
+        $update = ['name'=> $pname , 'price'=> $ppric, 'details'=> $pdetails,'image'=>$pimg];
 
          DB::table('products')->where('id', $id)->update($update);
               return redirect('/dashboard/products');

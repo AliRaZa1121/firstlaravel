@@ -9,9 +9,7 @@ use App\Models\User;
 
 class Account extends Controller
 {
-    public function login(){
-        return view('Frontend.login');
-    }
+
 
     public function loginpost(Request $request){
 
@@ -29,20 +27,19 @@ class Account extends Controller
        ->where('password',Request::input('password'))
        ->first();
         if ($user) {
-           //Request::session()->put('email', $user->email);
+            Request::session()->put('user', $user);
              return redirect('/dashboard');
-             //echo "done";
+
         }
         else{
-            //return view('backend.login');
-            return redirect('/');
+            $error = "Email Password does'nt Match!!";
+            return $error;
+            //return redirect('/');
+
         }
 
     }
 
-    public function signup(){
-     //   return view('backend.login');
-    }
 
     public function signuppost(){
        // return redirect('/dashboard');
